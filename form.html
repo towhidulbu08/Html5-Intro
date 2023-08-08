@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamaler ma pitha house</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="Name"> Your Name: <input type="text" id="Name" placeholder="Enter your name"></label>
+                <label for="Email"> Your Email: <input placeholder="Enter Your Email" type="email" name=""
+                        id="Email"></label>
+                <label for="Number"> Your Phone: <input placeholder="Enter your number" type="number" name=""
+                        id="Number"></label>
+
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="chitoy"> <input type="radio" name="pitha" id="chitoy">chitoy</label>
+                    <label for="vapa"> <input type="radio" name="pitha" id="vapa">vapa</label>
+                    <label for="puri"> <input type="radio" name="pitha" id="puri">puri</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one more vorta</legend>
+                    <label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</label>
+                    <label for="sutki"><input type="checkbox" name="vorta" id="sorisa">sutki</label>
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Special instruction</legend>
+                    <textarea name="" id="" cols="30" rows="5">Heart shape chocolate</textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
